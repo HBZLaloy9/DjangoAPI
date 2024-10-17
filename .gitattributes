@@ -1,1 +1,4 @@
 *.po text eol=lf
+*.py text eol=lf
+*.html text eol=lf
+*.po text eol=lf
