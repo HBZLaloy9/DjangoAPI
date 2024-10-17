@@ -19,7 +19,7 @@ from django.urls import path
 from api.login.login_view import login_view
 from api.home.home_view import home_views
 urlpatterns = [
-   # path('admin/', admin.site.urls),
+   path('admin/', admin.site.urls),
    path('login/',login_view,name="login_vista"), 
    path('',home_views, name="home")
  
